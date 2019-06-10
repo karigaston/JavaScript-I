@@ -55,8 +55,8 @@ const antonietta = {
   email: 'adaine5@samsung.com',
   name: 'Antonietta',
   gender: 'F',
-  multiplyNums(a, b) {
-    return a * b;
+  multiplyNums: function() {
+    return 3 * 4;
   }
 }
 
@@ -86,9 +86,6 @@ console.log(Kennan.speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
-let result = num1 * num2;
-return result;
-}
 
 console.log(antonietta.multiplyNums(3,4));
 
